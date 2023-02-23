@@ -63,7 +63,7 @@ function init() {
             type: 'checkbox',
             message: 'Which liscence do you want to choose?',
             name: 'license',
-            choice: ['MIT', 'BSD', 'GPL',]
+            choices: ['MIT', 'BSD', 'GPL',]
         },
     ])
     .then((data) => {
